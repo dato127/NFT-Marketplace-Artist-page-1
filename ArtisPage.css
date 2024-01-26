@@ -1,0 +1,410 @@
+p {
+    margin: 0;
+}
+
+/*cover profile image*/
+.cover-profile-image {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cover-profile-image>img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/*profile image*/
+.profile-image {
+    width: 1050px;
+    margin-top: -70px;
+}
+
+.profile-image>img {
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+/*artist info*/
+.artist-info {
+    width: 1050px;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    gap: 100px;
+}
+
+/*group 17*/
+.group-17 {
+    width: 599px;
+    height: 377px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.group-17-paragraph {
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 110%;
+}
+
+/*stats*/
+.stats {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/*total sale*/
+.total-sale {
+    width: 156.66px;
+}
+
+.total-sale-paragraph-1 {
+    color: #FFF;
+    font-family: "Space Mono";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.total-sale-paragraph-2 {
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+/*div bio*/
+.group-18 {
+    width: 599px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.group-18-paragraph-1 {
+    color: #858584;
+    font-family: "Space Mono";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+.group-18-paragraph-2 {
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+/*web icon*/
+.web-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/*group-19*/
+.group-19 {
+    display: flex;
+    gap: 20px;
+}
+
+.group-19-input-1 {
+    width: 186px;
+    height: 60px;
+    padding-left: 50px;
+    border: none;
+    border-radius: 20px;
+    background: #A259FF;
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 600;
+    background-image: url(galery/Copy.svg);
+    background-repeat: no-repeat;
+    background-position: 30px 50%;
+    cursor: pointer;
+}
+
+.group-19-input-2 {
+    width: 145px;
+    height: 60px;
+    padding-right: 30px;
+    text-align: right;
+    border-radius: 20px;
+    border: 2px solid #A259FF;
+    background-color: transparent;
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 600;
+    background-image: url(galery/Plus.svg);
+    background-repeat: no-repeat;
+    background-position: 30px 50%;
+    cursor: pointer;
+}
+
+.display-block {
+    display: none;
+}
+
+/*frame*/
+.frame {
+    height: 70px;
+    padding-top: 10px;
+    border-top: 1px solid #3B3B3B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.group-20 {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.line-1 {
+    width: 350px;
+    height: 2px;
+    background-color: #858584;
+    position: absolute;
+    top: 58px;
+    left: 0;
+}
+
+/*tab*/
+.tab {
+    width: 350px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.tab-ancor-1 {
+    color: var(--White, #FFF);
+    text-decoration: none;
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.tab-paragraph-1 {
+    width: 50px;
+    height: 32px;
+    border-radius: 20px;
+    background: #858584;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-family: "Space Mono";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.tab-ancor-2 {
+    color: var(--caption-label-text, #858584);
+    text-decoration: none;
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.tab-paragraph-2,
+.tab-paragraph-3 {
+    width: 40px;
+    height: 32px;
+    border-radius: 20px;
+    background: var(--Background---Secondary, #3B3B3B);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: "Space Mono";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.tab-paragraph-3 {
+    width: 30px;
+    height: 32px;
+}
+
+.container-16 {
+    background: var(--Background---Secondary, #3B3B3B);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/*nft card section*/
+.nft-card-section {
+    width: 1050px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nft-card {
+    background-color: #2B2B2B !important;
+
+}
+
+.media-none {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/*background 3*/
+.background-3 {
+    width: 100%;
+    height: 334px;
+    background: var(--Background---Secondary, #3B3B3B);
+    margin-top: 2px;
+    padding-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+
+    /*cover prifile image*/
+    .cover-profile-image>img {
+        height: 250px !important;
+    }
+
+    /*profile image*/
+    .profile-image {
+        width: auto !important;
+    }
+
+    /*artist info*/
+    .artist-info {
+        width: 315px !important;
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+        flex-direction: column !important;
+    }
+
+    /*group 17*/
+    .group-17 {
+        width: 315px !important;
+        height: 466px !important;
+    }
+
+    .group-17-paragraph {
+        font-size: 28px !important;
+        line-height: 140% !important;
+    }
+
+    .display-block {
+        display: block !important;
+    }
+
+    /*group 19*/
+    .group-19 {
+        flex-direction: column !important;
+    }
+
+    .group-19-input-1 {
+        width: 100% !important;
+        background-position: 85px 50% !important;
+    }
+
+    .group-19-input-2 {
+        width: 100% !important;
+        padding-right: 115px !important;
+        background-position: 115px 50% !important;
+    }
+
+    /*total sale*/
+    .total-sale {
+        width: 91.66px !important;
+    }
+
+    .total-sale-paragraph-1 {
+        font-size: 22px !important;
+        line-height: 160% !important;
+    }
+
+    .total-sale-paragraph-2 {
+        font-size: 16px !important;
+        line-height: 140% !important;
+    }
+
+    /*group 18*/
+    .group-18 {
+        width: 100% !important;
+    }
+
+    .group-18-paragraph-1 {
+        font-size: 16px !important;
+        line-height: 140% !important;
+    }
+
+    .group-18-paragraph-2 {
+        font-size: 16px !important;
+        line-height: 140% !important;
+    }
+
+    /*tab*/
+    .tab {
+        width: auto !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .tab-ancor-1,
+    .tab-ancor-2 {
+        font-size: 16px !important;
+    }
+
+    /*display none 5 html element*/
+    .tab-paragraph-1,
+    .tab-paragraph-2,
+    .tab-paragraph-3,
+    .media-none,
+    .display-none {
+        display: none !important;
+    }
+
+    .nft-card-section {
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 315px !important;
+    }
+
+    /*background 3*/
+    .background-3 {
+        height: 800px !important;
+    }
+
+    .line-1 {
+        width: 105px !important;
+    }
+
+}
